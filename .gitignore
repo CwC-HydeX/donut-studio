@@ -1,0 +1,44 @@
+# Generated frames, full renders, old versions and local run records.
+/cache/
+/output/
+/archive/
+/reports/
+
+# Machine-specific setup history and environment snapshots.
+/docs/本机项目说明.md
+/docs/MCP调查与使用说明.md
+/docs/mcp_tools.json
+/docs/requirements.lock.txt
+
+# Keep the editable .blend; ignore Blender backups.
+*.blend[0-9]*
+*.blend@
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+/build/
+/dist/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.log
+*.tmp
+*.bak
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.zip
+*.7z
+*.rar
+
+# docs/images previews are intentionally tracked.
