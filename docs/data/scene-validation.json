@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "source_sha256": "c5ed242a5ce3d61791257124d61eef63ee641c5a3b15c780b1297bc8a07150ff",
+  "blender": "5.2.1 LTS",
+  "scene": "STRAWBERRY / Sugarfall",
+  "objects": 390,
+  "materials": 13,
+  "sprinkles": 310,
+  "frames": [
+    1,
+    192
+  ],
+  "fps": 24,
+  "duration_seconds": 8,
+  "external_images": [],
+  "linked_libraries": 0,
+  "states": [
+    {
+      "frame": 1,
+      "visible_sprinkles": 0,
+      "airborne": 0,
+      "camera": [
+        4.7344,
+        -9.707,
+        7.3
+      ]
+    },
+    {
+      "frame": 65,
+      "visible_sprinkles": 163,
+      "airborne": 68,
+      "camera": [
+        5.301,
+        -9.1705,
+        7.1468
+      ]
+    },
+    {
+      "frame": 110,
+      "visible_sprinkles": 298,
+      "airborne": 71,
+      "camera": [
+        6.0582,
+        -8.3383,
+        6.9277
+      ]
+    },
+    {
+      "frame": 170,
+      "visible_sprinkles": 310,
+      "airborne": 0,
+      "camera": [
+        6.8631,
+        -7.3075,
+        6.6769
+      ]
+    },
+    {
+      "frame": 192,
+      "visible_sprinkles": 310,
+      "airborne": 0,
+      "camera": [
+        6.9466,
+        -7.1934,
+        6.65
+      ]
+    }
+  ],
+  "rendered": false,
+  "source_unchanged": true
+}

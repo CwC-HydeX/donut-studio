@@ -1,0 +1,96 @@
+{
+  "run_id": "20260906_015854_optimized",
+  "source_sha256": "c5ed242a5ce3d61791257124d61eef63ee641c5a3b15c780b1297bc8a07150ff",
+  "render_wall_seconds": 112.87571179999941,
+  "render_loop_seconds": 108.21357709999938,
+  "encode_seconds": 4.063393200000064,
+  "total_seconds_including_validation": 118.3297963999994,
+  "original_render_reference_seconds": 746,
+  "reference_note": "Original log ~12m26s; this is a historical comparison, not a controlled simultaneous A/B benchmark.",
+  "render_time_reduction_percent": 84.86920753351215,
+  "speedup_vs_original": 6.609039164437888,
+  "telemetry_samples": 51,
+  "blender_cpu_percent_of_system": {
+    "mean": 3.763848039215686,
+    "max": 4.9625
+  },
+  "system_cpu_percent": {
+    "mean": 7.73921568627451,
+    "max": 14.4
+  },
+  "gpu_system_utilization_percent": {
+    "mean": 74.3921568627451,
+    "max": 94.0
+  },
+  "gpu_system_memory_mib": {
+    "mean": 3906.235294117647,
+    "max": 4014.0
+  },
+  "gpu_temperature_c": {
+    "mean": 64.49019607843137,
+    "max": 69.0
+  },
+  "blender_rss_mib": {
+    "mean": 803.9573376225491,
+    "max": 820.4921875
+  },
+  "minimum_system_ram_available_gib": 14.966621398925781,
+  "telemetry_note": "CPU normalized to 16 logical cores. GPU statistics include other applications. Sampling may miss short peaks.",
+  "passed": true,
+  "render_settings": {
+    "blender": "5.2.1 LTS",
+    "render_device": "GPU",
+    "compute_device_type": "OPTIX",
+    "devices": [
+      {
+        "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+        "type": "CUDA",
+        "enabled": false
+      },
+      {
+        "name": "AMD Ryzen 7 5800H",
+        "type": "CPU",
+        "enabled": false
+      },
+      {
+        "name": "NVIDIA GeForce RTX 3070 Laptop GPU",
+        "type": "OPTIX",
+        "enabled": true
+      }
+    ],
+    "denoiser": "OPTIX",
+    "gpu_denoising": true,
+    "threads_mode": "FIXED",
+    "threads": 8,
+    "persistent_data": true,
+    "samples": 24,
+    "adaptive_threshold": 0.05999999865889549,
+    "resolution": [
+      960,
+      800
+    ],
+    "frames": 192,
+    "fps": 24,
+    "objects": 390,
+    "completed_frames": 192,
+    "render_loop_seconds": 108.21357709999938,
+    "mean_frame_seconds": 0.5575386520833755,
+    "median_frame_seconds": 0.5438755499999388,
+    "first_frame_seconds": 2.349373499999274,
+    "last_frame_seconds": 0.5567711000003328
+  },
+  "video": {
+    "frames": 192,
+    "fps": 24.0,
+    "duration": 8.0,
+    "size": [
+      960,
+      800
+    ],
+    "bytes": 1538868,
+    "codec": "H.264",
+    "encode_seconds": 4.063393200000064,
+    "encode_and_validation_seconds": 4.543643900000461,
+    "passed": true
+  }
+}
